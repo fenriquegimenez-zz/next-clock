@@ -1,7 +1,7 @@
-import React from "react"
-import Head from "next/head"
-import Fecha from "../components/date"
-import Hora from "../components/hour"
+import React from "react";
+import Head from "next/head";
+import Fecha from "@/components/date";
+import Hora from "@/components/hour";
 
 const index = () => {
   return (
@@ -15,7 +15,7 @@ const index = () => {
         <Hora />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default index;
