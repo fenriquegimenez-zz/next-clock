@@ -1,8 +1,10 @@
 import React from "react";
 import Head from "next/head";
-import Fecha from "../components/date";
-import Hora from "../components/hour";
+
+import Fecha from "@/components/date";
+import Hora from "@/components/hour";
 import useTranslation from 'next-translate/useTranslation';
+
 
 const index = () => {
   const { t } = useTranslation("common");
