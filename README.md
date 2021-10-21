@@ -63,7 +63,7 @@ In order to add new localization options, follow the next steps:
 
 - Open **.\i18n.json** and add your locale to the list, its best to make use of the [ISO language codes](http://www.lingoes.net/en/translator/langcode.htm)
 
-####.\i18n.json
+#### .\i18n.json
 ```bash
 {
     "locales": ["es-AR", "en", {**your language**}],
