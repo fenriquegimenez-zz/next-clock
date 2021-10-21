@@ -61,7 +61,8 @@ In order to easily add new translations, the following folderstructure has been 
 
 In order to add new localization options, follow the next steps:
 
-- Open .\i18n.json and add your locale to the list, its best to make use of the [ISO language codes](http://www.lingoes.net/en/translator/langcode.htm)
+- Open **.\i18n.json** and add your locale to the list, its best to make use of the [ISO language codes](http://www.lingoes.net/en/translator/langcode.htm)
+
 ####.\i18n.json
 ```bash
 {
@@ -76,4 +77,4 @@ In order to add new localization options, follow the next steps:
 - Add a file called **common.json** or copy from an other language.
 - Fill the file with your translations or add new translations
 
-You can now use your translation in components by importing **useTranslation from "next-translate/useTranslation"** and using **{t("<your translation key>")}**
+You can now use your translation in components by importing **useTranslation from "next-translate/useTranslation"** and using **{t("insert text")}**
